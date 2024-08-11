@@ -43,7 +43,6 @@ const router = createBrowserRouter([
         element: (
             <>
                 <Projects />
-                <Footer />
             </>
         ),
     },
