@@ -1,7 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "homepage": "https://github.com/Aman-Yadav-13/Portfolio.git",
   "scripts": {
+  "predeploy": "parcel build",
+  "deploy": "gh-pages -d dist",
     "start": "npx parcel src/index.html"
   },
   "keywords": [],
@@ -15,6 +18,7 @@
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "postcss": "^8.4.41",
     "process": "^0.11.10",
